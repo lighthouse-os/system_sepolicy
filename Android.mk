@@ -313,7 +313,7 @@ endif  # with_asan
 ifneq ($(PLATFORM_SEPOLICY_VERSION),$(TOT_SEPOLICY_VERSION))
 ifeq ($(PLATFORM_SEPOLICY_VERSION_TEST),true)
 LOCAL_REQUIRED_MODULES += \
-    sepolicy_freeze_test \
+    sepolicy_freeze_test
 
 endif # ($(PLATFORM_SEPOLICY_VERSION_TEST),true)
 else
