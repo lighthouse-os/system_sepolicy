@@ -485,3 +485,6 @@ graphics.gpu.profiler.support          u:object_r:graphics_config_prop:s0 exact 
 graphics.gpu.profiler.vulkan_layer_apk u:object_r:graphics_config_prop:s0 exact string
 
 ro.cpuvulkan.version u:object_r:graphics_config_prop:s0 exact int
+
+# Dark bootanimation
+ro.boot.theme u:object_r:misc_writer_prop:s0 exact string
