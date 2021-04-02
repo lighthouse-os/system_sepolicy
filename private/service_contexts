@@ -250,3 +250,4 @@ wifirtt                                   u:object_r:rttmanager_service:s0
 window                                    u:object_r:window_service:s0
 pocket                                    u:object_r:pocket_service:s0
 *                                         u:object_r:default_android_service:s0
+applock                                   u:object_r:applock_service:s0 

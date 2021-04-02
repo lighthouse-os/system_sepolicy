@@ -7,3 +7,4 @@ type statscompanion_service,        system_server_service, service_manager_type;
 type statsmanager_service,          system_api_service, system_server_service, service_manager_type;
 type uce_service,                   service_manager_type;
 type pocket_service, system_api_service, system_server_service, service_manager_type;
+type applock_service, system_api_service, system_server_service, service_manager_type;

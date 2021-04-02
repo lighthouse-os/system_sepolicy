@@ -1147,6 +1147,9 @@ allow system_server pocket_service:service_manager { add find };
 allow system_server pocket_judge_sysfs:dir search;
 allow system_server pocket_judge_sysfs:file rw_file_perms;
 
+# App Lock
+add_service(system_server, applock_service); 
+
 # JVMTI agent settings are only readable from the system server.
 neverallow {
   domain
